@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Rise and Fall of Tommy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>The Rise and Fall of Tommy</h1>
+    <p>A picture-book tale of one man’s hilarious missteps</p>
+  </header>
+
+  <nav>
+    <button onclick="scrollToSection('achievements')">Achievements</button>
+    <button onclick="scrollToSection('sports')">Sports Stats</button>
+    <button onclick="scrollToSection('gpa')">GPA</button>
+    <button onclick="scrollToSection('skills')">Overall Skills</button>
+  </nav>
+
+  <section id="achievements" class="story-section">
+    <h2>Tommy's Greatest Achievements</h2>
+    <p>Tommy graduated college at 22, which is normal. He got his driver's license at 36, which is... not. He never had much luck with the ladies, but he tried his best.</p>
+    <!-- Upload an image of Tommy and replace the src below -->
+    <img src="images/tommy-license.png" alt="Tommy with driver's license" />
+  </section>
+
+  <section id="sports" class="story-section">
+    <h2>Tommy the Spartan (For a Bit)</h2>
+    <p>Tommy briefly played for the Spoto Spartans football team, but was removed after an incident involving cup-throwing at a gas station. Go Spartans!</p>
+    <!-- Replace this image with one of Tommy in football gear if available -->
+    <img src="images/tommy-football.png" alt="Tommy in football gear" />
+  </section>
+
+  <section id="gpa" class="story-section">
+    <h2>Tommy’s Academic Journey</h2>
+    <p>Let’s be honest... Tommy’s GPA barely existed. But hey — he showed up. That’s something, right?</p>
+    <!-- GPA bar for comic effect -->
+    <div class="bar-container">
+      <div class="bar" style="width: 10%;">0.9 GPA</div>
+    </div>
+    <!-- Optionally, add a photo of a failed test or Tommy looking confused -->
+    <img src="images/tommy-gpa.png" alt="Tommy school photo" />
+  </section>
+
+  <section id="skills" class="story-section">
+    <h2>Tommy’s Only Real Talent</h2>
+    <p>If there's one thing Tommy could always do, it was carry heavy things. Boxes, couches, crates — you name it, he’ll lift it. Just don’t ask him to think too hard about it.</p>
+    <!-- Drop a funny photo of him lifting stuff -->
+    <img src="images/tommy-lifting.png" alt="Tommy carrying heavy objects" />
+  </section>
+
+  <footer>
+    <p>This storybook is dedicated to all the Tommys out there. Keep carrying stuff.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
